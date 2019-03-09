@@ -32,6 +32,12 @@ nav {
     height: 10vh;
     background-color: white;
 }
+.fix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
 nav > a {
     width: 100px;
     height: 50px;
@@ -402,6 +408,7 @@ img[alt="Icone instagram"] {
     font-size: 3em;
 }
 .aboutUs > p {
+    margin-top: 1em;
     padding: 0 2em;
     color: white;
     font-style: italic;
