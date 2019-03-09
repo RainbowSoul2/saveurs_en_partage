@@ -101,9 +101,11 @@ main > .groupPhoto {
     color: white;
     text-align: center;
 }
-.photoText > p {
-    margin: 1em;
+.photoText > ul {
+}
+.photoText > ul > li {
     font-size: 2em;
+    margin: 1em;
     color: white;
     text-align: left;
 }
