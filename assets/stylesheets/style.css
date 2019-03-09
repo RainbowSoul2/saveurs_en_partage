@@ -78,7 +78,7 @@ main > .groupPhoto {
     justify-content: center;
     align-items: flex-end;
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     background-image: url("../pictures/group2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -91,15 +91,17 @@ main > .groupPhoto {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 30%;
+    height: 40%;
     background-color: rgba(0, 0, 0, 0.6);
 }
 .photoText > h3 {
+    font-size: 2em;
     color: white;
     text-align: center;
 }
 .photoText > p {
     margin-top: 1em;
+    font-size: 1.3em;
     color: white;
     text-align: left;
 }
@@ -112,6 +114,7 @@ main > .shopPlace {
 }
 .shopPlace > .placeText {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 60%;
@@ -119,7 +122,14 @@ main > .shopPlace {
     background-color: #f28135;
 }
 .placeText > h3 {
-    font-size: 5em;
+    padding: 0 1em;
+    font-size: 2em;
+    color: white;
+}
+.placeText > p {
+    margin-top: 2em;
+    padding: 0 1em;
+    font-size: 1.2em;
     color: white;
 }
 .shopPlace > .mapScreen {
