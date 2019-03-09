@@ -97,7 +97,7 @@ main > .groupPhoto {
 }
 .photoText > h3 {
     margin-top: 1em;
-    font-size: 3em;
+    font-size: 2.5em;
     color: white;
     text-align: center;
 }
@@ -105,7 +105,7 @@ main > .groupPhoto {
     margin-left: 3em;
 }
 .photoText > ul > li {
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 1em;
     color: white;
     text-align: left;
@@ -148,16 +148,19 @@ main > .shopPlace {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 20vh;
-    background-color: white;
+    height: 25vh;
+    background-color: black;
 }
 .newsletter > p {
+    font-size: 2em;
     font-weight: bold;
+    color: white;
 }
 .newsletter > form {
     width: 100%;
 }
 .newsletter > form > input[type="email"] {
+    width: 30%;
     height: 30px;
     margin: 0 1em;
     border-radius: 10px;
@@ -188,17 +191,18 @@ main > .shopProducts {
 	height: 50vh;
 	margin: auto;
 	position: relative;
-	overflow:hidden;
+    overflow:hidden;
+    background-color: white;
 }
 .shopProducts > .shopCarousel {
     display: flex;
     width: calc(450px * 6);
-    height: 100%;
+    height: 90%;
     animation: scroll 10s linear infinite;
 }
 .shopCarousel > .shopItem {
     width: 450px;
-    height: 100%;
+    height: 90%;
 }
 @keyframes scroll {
 	0% { transform: translateX(0); }
@@ -242,6 +246,11 @@ main > .supportUs {
     overflow:hidden;
     background-color: white;
 }
+.supportUs span {
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: underline;
+}
 .supportUs > div {
     display: flex;
     flex-direction: column;
@@ -253,7 +262,7 @@ main > .supportUs {
 .supportUs > div > .supportText {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 80%;
     height: 70%;
@@ -266,8 +275,13 @@ main > .supportUs {
 .supportUs > div > .supportText:hover {
     transform: scale(1.1);
 }
+.supportText > img {
+    width: 60px;
+    height: 60px;
+}
 .supportText > p {
     padding: 0 1em;
+    font-size: 1.5em;
     color: white;
 }
 main > .partners {
